@@ -1,0 +1,66 @@
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+    
+}
+
+.FirstHead{
+    
+    margin: auto;
+    width: 75%;
+    padding: 25px;
+    text-align: center;
+    font-style: normal;
+    border: 3mm ridge ;
+    border-color: gold;
+    background-color: black;
+    
+}
+
+.SecondBox{
+    float: left;
+    background-color: blue;
+    width: 25%;
+    height: 280px;
+    border: 3mm ridge silver;
+
+}
+
+.ThirdBox{
+    float: left;
+    background-color: orange;
+    width: 25%;
+    height: 280px;
+    border: 3mm ridge;
+}
+
+.FourthBox{
+    
+    float: left;
+    background-color: peachpuff;
+    width: 25%;
+    height: 280px;
+    border: 3mm ridge;
+    
+}
+
+
+/*THe actual issue was the fact that the width of the divs were too small for the 
+  div that they were in which was larger.*/
+
+#TotalBox{
+    margin: auto;
+    width: 800px;
+    clear: both;
+    border: 3mm ridge silver;
+    display: inline-block;
+}
+
+.Words1{
+    text-align: center;
+}
+
+
+
